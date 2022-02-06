@@ -9,7 +9,7 @@ output=input("Enter filename: ")
 obj=Wikipedia_info(keyword,n_urls)
 
 json_data=obj.output_builder()
-print(json_data)
+
 with open(output, "w") as outfile:
     outfile.write(json_data)
 outfile.close()
