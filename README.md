@@ -7,6 +7,12 @@ Wikipedia: pip install wikipedia
 
 There are 2 python files:
 
-wiki_api.py: In this python file I have built Wikipedia_info class. It handles user's queries made through wiki_extractor.py and uses it to fetch data through python wikipedia api which is further preprocessed and converted to suitable json file.
+wiki_api.py: In this python file I have built Wikipedia_info class. It handles user's queries made through wiki_extractor.py and uses these to fetch data through python wikipedia api. The data is further processed and converted to suitable json file.
 
 wiki_extractor.py: This file contains basic command to input user queries and send it to Wikipedia_info class created in wiki_api.py.
+
+To use this assignment: Run wiki_extractor.py. Enter keyword and number of urls you want.
+
+There is also a demo file made for keyword="History of India" ,no of url =20, filename="out.json". 
+
+Example of user input is also given in the form of picture.
