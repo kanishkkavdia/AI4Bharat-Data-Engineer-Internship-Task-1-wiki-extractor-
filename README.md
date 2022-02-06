@@ -7,7 +7,7 @@ Wikipedia: pip install wikipedia
 
 
 Instructions:
-To use this assignment: 
+To use this assignment-->
 Run wiki_extractor.py. Enter keyword ,number of urls you want and json filename.
 
 Sample:
